@@ -1,0 +1,189 @@
+#!/bin/bash
+clear
+echo "==============================================================="|lolcat
+figlet masukkan password |lolcat
+echo "==============================================================="|lolcat
+echo "ketik passwordnya :" |lolcat
+
+read password
+
+if [ $password = heytayo ]
+then
+clear
+echo "good" |lolcat
+fi
+cowsay -f eyes  Hello | lolcat
+figlet  Mr.P1x31 |lolcat
+date | lolcat                                                                   echo "==================================
+[*]        Nama:Mr P1x31         ☆
+[*]        Team:Mr P1x31         ☆
+==================================" | lolcat
+
+sleep 2
+
+echo "=================================="|lolcat
+echo "[1]Hack Fb                       ☆
+[2]Bermain moon-buggy            ☆
+[3]Telephone di termux           ☆
+[4]N_Map                         ☆
+[5]Localozor ip                  ☆
+[6]Red_hawk                      ☆
+[7]Menjalankan Music             ☆
+[8]Membuat firus                 ☆
+[9]Bobol wifi                    ☆
+[10]Nik Kk gratis                ☆
+[11]Tools B4j16n411v5            ☆
+[12]Perkiraan cuaca              ☆
+[13]Telephone via termux         ☆
+[14]Menampilkan Informasi Hp     ☆
+[14]Menampilkan Informasi Hp     ☆
+[15]Auto boot facebook           ☆
+[16]Osif                         ☆
+[0]Exit                          ☆"| lolcat
+echo "=================================="|lolcat
+echo "[*] Pilih nomor =                ☆" | lolcat
+echo "=================================="|lolcat
+read nomor
+
+if [ $nomor = 1 ] || [ $nomor = 01 ]
+then
+clear                                                                           pkg install python2 git
+pip2 install mechanize
+git clone http://github.com/pirmansx/mbf
+ls
+cd mbf
+python2 MBF.py
+fi
+
+if [ $nomor = 2 ] || [ $nomor = 02 ]
+then
+clear
+pkg install moon-buggy
+moon-buggy
+fi
+
+if [ $nomor = 3 ] || [ $nomor = 03 ]
+then
+clear
+pkg install termux-api
+termux-telephony-call nomornya
+fi
+
+if [ $nomor = 4 ] || [ $nomor = 04 ]
+then
+clear
+apt install nmap
+echo "ketik:nmap <host/IP target>" | lolcat
+echo "ketik:nmap -p <host/IP target>" | lolcat
+echo "ketik:nmap -sV <host/IP target>" | lolcat
+echo "ketik:nmap -O <host/IP target>" | lolcat
+fi
+
+if [ $nomor = 5 ] || [ $nomor = 05 ]
+then
+clear
+Apt install python git
+git clone https://github.com/maldevel/IPGeoLocation.git
+cd IPGeoLocation
+chmod +x ipgeoLocation.py
+pip install -r requirements.txt
+python ipgeolocation.py -m
+python ipgeolocation.py -t http://www.google.com
+fi
+
+if [ $nomor = 6 ] || [ $nomor = 06 ]
+then
+clear
+apt install git
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+cd RED_HAWK
+chmod +x rhawk.php
+apt install php
+ls
+php rhawk.php
+fi
+
+if [ $nomor = 7 ] || [ $nomor =  07 ]
+then
+clear
+pkg install mpv
+mpv /lokasi/musik/musik.mp3
+fi
+
+if [ $nomor = 8 ] || [ $nomor = 08 ]
+then
+clear
+git clone https://github.com/viruz09/CreaterVirus
+cd CreaterVirus
+python2 creater.py
+fi
+
+if [ $nomor = 9 ] || [ $nomor = 09 ]
+then
+clear
+git clone https://github.com/esc0rtd3w/wifi-hacker
+cd wifi-hacker/
+chmod +x wifi-hacker.sh
+./wifi-hacker.sh
+fi
+
+if [ $nomor = 10 ]
+then
+clear
+pkg install php git
+git clone https://github.com/IndonesianSecurity/kkktp
+cd kkktp
+php kkktp.php
+fi
+
+if [ $nomor = 11 ]
+then
+clear
+pkg install update
+pkg install git
+pkg install toilet
+pkg install figlet
+pip2 install lolcat
+git clone https://github.com/DarknessCyberTeam/B4J1N64Nv5
+cd B4J1N64Nv5
+sh B4J1N64N.sh
+fi
+
+if [ $nomor = 12 ]
+then
+clear
+echo "ketik = curl http://wttr.in/ (lokasi)"|lolcat
+fi
+
+if [ $nomor = 13 ]
+then
+clear
+pkg install termux-api
+echo "termux-telephony-call(nomor yang dituju)"|lolcat
+fi
+
+if [ $nomor = 14 ]
+then
+clear
+pkg install neofetch
+clear
+neofetch
+fi
+
+if [ $nomor = 15 ]
+then
+clear
+git clone https://github.com/Senitopeng/BotFbBangDjon.git
+cd BotFbBangDjon
+python2 bangdjon.py
+fi
+
+if [ $nomor = 16 ]
+then
+clear
+pkg install python2
+git clone https://github.com/ciku370/OSIF
+cd OSIF
+pip2 install -r requirements.txt
+python2 osif.py
+fi
